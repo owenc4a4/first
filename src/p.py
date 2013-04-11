@@ -1,3 +1,3 @@
 import os
 
-print 10
+print 120
