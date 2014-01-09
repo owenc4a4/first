@@ -1,0 +1,3 @@
+[submodule "libs/black"]
+	path = libs/black
+	url = git@github.com:owenc4a4/blackjack.git
