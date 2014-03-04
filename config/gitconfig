@@ -1,3 +1,6 @@
+[color]
+    diff = auto
+    status = auto
 [core]
     editor = vim
 [user]

@@ -114,6 +114,7 @@ filetype on
 filetype plugin indent on
 
 
+set backupdir=~/.vimbackup
 if $VIM_CRONTAB == "true"
     set nobackup
     set nowritebackup
