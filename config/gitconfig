@@ -1,0 +1,7 @@
+[core]
+    editor = vim
+[user]
+    name = cloud
+    email = owenc4a4@gmail.com
+[push]
+    default = tracking
