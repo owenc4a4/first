@@ -1,0 +1,2 @@
+du -sm : show the size of the folder
+cat /proc/cpuinfo : the cpu info

@@ -71,7 +71,7 @@ set smartindent
 set showcmd
 set background=dark
 set backspace=indent,eol,start
-set bdir=~/temp/vimtmp
+set backupdir=~/.vimbackup
 set encoding=utf-8
 set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 set history=1000
@@ -114,7 +114,6 @@ filetype on
 filetype plugin indent on
 
 
-set backupdir=~/.vimbackup
 if $VIM_CRONTAB == "true"
     set nobackup
     set nowritebackup
