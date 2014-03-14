@@ -1,0 +1,4 @@
+
+au BufNewFile,BufRead *.psgi  setfiletype perl
+cabbrev f2p  set filetype=perl
+cabbrev w!!  w !sudo tee %
