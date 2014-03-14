@@ -1,0 +1,15 @@
+HOST dev
+  Hostname 218.216.141.101
+  User 
+
+HOST middle
+  Hostname 218.216.141.7
+  User 
+
+HOST test
+  Hostname 218.216.141.18
+  User 
+
+HOST admin
+  Hostname 210.149.2.65
+  User 
