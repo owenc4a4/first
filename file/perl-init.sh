@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-cpanm Module::Install::CPANfile inc::Module::Install
+cpanm Module::Install::CPANfile inc::Module::Install Proclet \
+    Path::Tiny
