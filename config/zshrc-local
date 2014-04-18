@@ -5,3 +5,4 @@ alias gsync='git pull;git submodule update'
 alias gf='git fetch'
 alias c='clear'
 export LC_ALL=en_US.UTF-8
+export PATH="/usr/local/opt/ruby/bin:$PATH"

@@ -1,4 +1,6 @@
 
 au BufNewFile,BufRead *.psgi  setfiletype perl
+au BufNewFile,BufRead *.t  set filetype=perl
 cabbrev f2p  set filetype=perl
+cabbrev eta  set noexpandtab
 cabbrev w!!  w !sudo tee %
