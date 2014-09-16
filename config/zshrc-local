@@ -1,4 +1,5 @@
-android_tools='/Users/cloud/development/adt-bundle-mac-x86_64-20140624/sdk/platform-tools'
+android_home='/Users/cloud/development/adt-bundle-mac-x86_64-20140624/sdk'
+android_tools="$android_home/platform-tools"
 
 alias l='ls -CF'
 alias la='ls -A'
@@ -6,4 +7,5 @@ alias gsync='git pull;git submodule update'
 alias gf='git fetch'
 alias c='clear'
 export LC_ALL=en_US.UTF-8
+export ANDROID_HOME=$android_home
 export PATH="/usr/local/opt/ruby/bin:$android_tools:$PATH"
