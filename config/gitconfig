@@ -3,8 +3,15 @@
     status = auto
 [core]
     editor = vim
+	excludesfile = /Users/cloud/.gitignore_global
 [user]
     name = cloud
     email = owenc4a4@gmail.com
 [push]
     default = tracking
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
