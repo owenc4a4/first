@@ -10,4 +10,8 @@ alias agcs='ag -Gcs'
 alias grhh1='git reset HEAD~1 --hard'
 export LC_ALL=en_US.UTF-8
 export ANDROID_HOME=$android_home
-export PATH="/usr/local/opt/ruby/bin:$android_tools:$PATH"
+export PATH="$android_tools:$PATH"
+export GOPATH="/Users/cloud/development/"
+
+
+eval "$(rbenv init -)"
