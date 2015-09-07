@@ -5,4 +5,4 @@ how to use the git
 1-0
 
 
-version 1.0
+version 1.1
