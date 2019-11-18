@@ -6,3 +6,5 @@ how to use the git
 
 
 2019-01-11
+
+git config --add oh-my-zsh.hide-status 1
