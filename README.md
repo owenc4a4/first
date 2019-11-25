@@ -37,3 +37,21 @@ Host target
   User togo-ma
   UserKnownHostsFile /dev/null
 ```
+
+
+```
+// get pecl
+$ wget http://pear.php.net/go-pear.phar
+$ php go-pear.phar
+
+
+$ lib
+$ brew install libyaml
+$ brew install ossp-uuid
+$ brew install libmemcached
+# tar xvfz xxxxxx.tar.gz
+# libuuid https://noknow.info/it/os/install_libuuid_from_source?lang=ja
+
+# brew install zlib
+# brew install pkg-config
+```
