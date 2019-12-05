@@ -9,6 +9,12 @@ how to use the git
 
 git config --add oh-my-zsh.hide-status 1
 
+plugin 
+```
+oh-my-zsh
+powerline fonts
+```
+
 
 # 踏み台
 ```
