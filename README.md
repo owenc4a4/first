@@ -46,6 +46,18 @@ Host target
 
 
 ```
+// SSH鍵をssh-agentに登録
+$ ssh-add /Users/user_name/.ssh/id_rsa
+
+// 上記パス（~/.ssh_id_rsa）の場合、下記でも登録可能
+$ ssh-add -K
+
+// 登録されていることを確認する
+$ ssh-add -l
+
+```
+
+```
 // get pecl
 $ wget http://pear.php.net/go-pear.phar
 $ php go-pear.phar
