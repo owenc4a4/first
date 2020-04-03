@@ -14,4 +14,10 @@ export PATH="$android_tools:$PATH"
 export GOPATH="/Users/cloud/development/"
 
 
+export PATH="/usr/local/share/dotnet:$HOME/.rbenv/bin:$PATH"
+#export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
+export PATH="$HOME/Library/Android/sdk/platform-tools/:$PATH"
+export PATH="$HOME/Library/Android/sdk/tools:$PATH"
+
+
 eval "$(rbenv init -)"
